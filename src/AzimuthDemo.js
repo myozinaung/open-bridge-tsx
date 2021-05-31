@@ -1,6 +1,6 @@
 import "openbridge-web-components"; // npm install openbridge-web-components
 import * as React from "react";
-import { fromEvent, interval, Subscription } from "rxjs";
+import { fromEvent, interval, Subscription } from "rxjs"; // npm install rxjs
 import { filter, timeInterval } from "rxjs/operators";
 
 export class AzimuthDemo extends React.Component {

@@ -1,0 +1,259 @@
+/* Dimming menu */
+/* Auto Layout */
+.dimming-menu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: absolute;
+  width: 272px;
+  height: 401px;
+  right: 48px;
+  top: 48px;
+
+  /* Container/ Global-color */
+  background: #fcfcfc;
+
+  /* Shadow/ Floating */
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  border-radius: 0px 0px 8px 8px;
+}
+
+/* Palette */
+/* Auto Layout */
+.dimming-palette {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 24px;
+
+  position: relative;
+  width: 272px;
+  height: 184px;
+  left: 0px;
+  top: 0px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.dimming-auto-palette {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  width: 224px;
+  height: 72px;
+  left: 24px;
+  top: 16px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 16px 0px;
+}
+
+.dimming-palette-label {
+  position: static;
+  width: 224px;
+  height: 24px;
+  left: 0px;
+  top: 0px;
+
+  /* UI/ Overline */
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 24px;
+  /* identical to box height, or 200% */
+
+  letter-spacing: 1.125px;
+  text-transform: uppercase;
+
+  /* Element/ Neutral-color */
+
+  color: rgba(0, 0, 0, 0.5);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.dimming-auto-palette-container {
+  position: static;
+  width: 224px;
+  height: 48px;
+  left: 0px;
+  top: 24px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.four-theme-container {
+  position: absolute;
+  width: 224px;
+  height: 64px;
+  left: 24px;
+  top: 104px;
+
+  /* Inside Auto Layout */
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin: 16px 0px;
+}
+
+.four-theme-icon-backgroud {
+  /* 🔲 Container */
+  position: absolute;
+  height: 32px;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+
+  /* Indent/ Enabled-background-color */
+
+  background: rgba(0, 0, 0, 0.08);
+  border-radius: 6px;
+}
+
+.four-theme-icon-container {
+  position: absolute;
+  height: 56px;
+  width: 64px;
+  left: 0px;
+  top: 0px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+}
+
+.four-theme-icon-label {
+  position: absolute;
+  height: 24px;
+  left: -8.33%;
+  right: -8.33%;
+  top: calc(50% - 24px / 2 + 16px);
+
+  /* UI/ Label */
+
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-align: center;
+
+  /* Element/ Active-color */
+
+  color: #333333;
+}
+
+.four-theme-icon-btn {
+  /* Button */
+
+  position: absolute;
+  width: 64px;
+  height: 64px;
+
+  border-radius: 6px;
+}
+
+.four-theme-icon {
+  position: absolute;
+  width: 24px;
+  height: 24px;
+  left: calc(50% - 24px / 2);
+  top: calc(50% - 24px / 2);
+}
+
+.dimming-menu-divider {
+  position: static;
+  height: 1px;
+  left: 0px;
+  right: 0px;
+  bottom: 216px;
+
+  /* Border/ Outline-color */
+
+  background: rgba(0, 0, 0, 0.1);
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 1;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.dimming-brightness-slider {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 16px 24px;
+
+  position: static;
+  width: 272px;
+  height: 160px;
+  left: 0px;
+  top: 185px;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 2;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}
+
+.dimming-bottom-area {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0px;
+
+  position: static;
+  height: 56px;
+  left: 0px;
+  right: 0px;
+  bottom: 0px;
+
+  /* Container/ Global-color */
+
+  background: #fcfcfc;
+
+  /* Inside Auto Layout */
+
+  flex: none;
+  order: 3;
+  align-self: stretch;
+  flex-grow: 0;
+  margin: 0px 0px;
+}

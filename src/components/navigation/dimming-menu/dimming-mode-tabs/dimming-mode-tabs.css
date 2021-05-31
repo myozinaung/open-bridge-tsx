@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap");
+
+:root {
+  --selected-label-color: #000000;
+  --selected-tab-color: #b9b9b9;
+  --hover-color: #b9b9b9;
+  --tab-boder-radius: 20px;
+  --tab-width: 60px;
+  --tab-height: 60px;
+}
+
+*,
+*:after,
+*:before {
+  box-sizing: border-box;
+}
+
+.tabs {
+  display: flex;
+  position: relative;
+  background-color: #fff;
+  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15),
+    0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  padding: 0.5rem;
+  border-radius: var(--tab-boder-radius);
+}
+.tabs * {
+  z-index: 2;
+}
+
+input[type="radio"] {
+  display: none;
+}
+
+.tab {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: var(--tab-height);
+  width: var(--tab-width);
+  font-family: "Inter", sans-serif;
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: gray;
+  border-radius: var(--tab-boder-radius);
+  /* margin: 1%; */
+  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15),
+    0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  cursor: pointer;
+  user-select: none;
+  transition: color 0.15s ease-in;
+}
+
+.tab:hover {
+  background-color: var(--hover-color);
+  border-radius: 33%;
+  transform: scale(1.15);
+  z-index: 3;
+  /* transform: translateY(-5%); */
+  transition: 0.25s ease-out;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+  opacity: 40%;
+}
+
+input[type="radio"]:checked + label {
+  color: var(--selected-label-color);
+  font-weight: bold;
+}
+
+input[type="radio"]:checked + label > .icon {
+  opacity: 100%;
+  transform: scale(1.2);
+  transition: 0.25s ease-out;
+}
+
+input[id="radio-bright"]:checked ~ .glider {
+  transform: translateX(0);
+}
+
+input[id="radio-day"]:checked ~ .glider {
+  transform: translateX(100%);
+}
+
+input[id="radio-dusk"]:checked ~ .glider {
+  transform: translateX(200%);
+}
+
+input[id="radio-night"]:checked ~ .glider {
+  transform: translateX(300%);
+}
+
+.glider {
+  position: absolute;
+  display: flex;
+  height: var(--tab-height);
+  width: var(--tab-width);
+  background-color: var(--selected-tab-color);
+  z-index: 1;
+  border-radius: var(--tab-boder-radius);
+  /* margin: 1%; */
+  transition: 0.25s ease-in-out;
+  /* border: 3px black solid; */
+}
