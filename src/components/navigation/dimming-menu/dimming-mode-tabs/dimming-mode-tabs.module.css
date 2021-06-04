@@ -57,14 +57,15 @@ input[type="radio"] {
   background-color: var(--hover-color);
   border-radius: 33%;
   transform: scale(1.15);
-  z-index: 10;
+  z-index: 5;
   transition: 0.25s ease-out;
 }
 
 .icon {
-  width: 24px;
-  height: 24px;
+  /* width: 24px;
+  height: 24px; */
   opacity: 40%;
+  z-index: 10;
 }
 
 input[type="radio"]:checked + label {
