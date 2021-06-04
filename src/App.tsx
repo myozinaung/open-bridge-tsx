@@ -9,7 +9,7 @@ function App() {
 
       <DimmingMenu />
 
-      {/* <AzimuthDemo /> */}
+      <AzimuthDemo />
       {/* <DimmingMenu /> */}
     </div>
   );
