@@ -29,7 +29,7 @@ function TopNavbarLeft() {
 function TopNavbarMiddle() {
   return (
     <nav className={styles.topNavbarMiddleContainer}>
-      <h1>Top Navbar Middle</h1>
+      <h1>Welcome to Open-Bridge UI</h1>
     </nav>
   );
 }

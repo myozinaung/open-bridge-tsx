@@ -21,6 +21,11 @@ code {
   --speed: 500ms;
 }
 
+h1 {
+  font-size: xx-large;
+  user-select: none;
+}
+
 ul {
   list-style: none;
   margin: 0;
