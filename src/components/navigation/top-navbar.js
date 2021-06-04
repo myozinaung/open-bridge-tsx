@@ -10,23 +10,39 @@ import { CSSTransition } from "react-transition-group";
 
 function TopNavbar() {
   return (
-    <Navbar>
+    <ul className={styles.topNavbarContainer}>
+      <TopNavbarLeft />
+      <TopNavbarMiddle />
+      <TopNavbarRight />
+    </ul>
+  );
+}
+
+function TopNavbarLeft() {
+  return (
+    <nav className={styles.topNavbarLeftContainer}>
       <NavItem icon={<NavMenuIcon />} />
+    </nav>
+  );
+}
+
+function TopNavbarMiddle() {
+  return (
+    <nav className={styles.topNavbarMiddleContainer}>
+      <h1>Top Navbar Middle</h1>
+    </nav>
+  );
+}
+
+function TopNavbarRight() {
+  return (
+    <nav className={styles.topNavbarRightContainer}>
       <NavItem icon={<AlertIcon />} />
       <NavItem icon={<UserIcon />} />
-
       <NavItem icon={<DimmingIcon />}>
         {/* <DropdownMenu></DropdownMenu> */}
       </NavItem>
       <NavItem icon={<AppsIcon />} />
-    </Navbar>
-  );
-}
-
-function Navbar(props) {
-  return (
-    <nav className={styles.navbar}>
-      <ul className={styles.navbarNav}>{props.children}</ul>
     </nav>
   );
 }
@@ -39,7 +55,6 @@ function NavItem(props) {
       <a href="#" className={styles.iconButton} onClick={() => setOpen(!open)}>
         {props.icon}
       </a>
-
       {open && props.children}
     </li>
   );

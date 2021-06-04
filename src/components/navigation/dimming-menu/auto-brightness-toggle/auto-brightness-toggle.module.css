@@ -1,0 +1,88 @@
+*:before,
+*:after {
+  content: "";
+  position: absolute;
+}
+
+.toggleContainer {
+  display: flex;
+  width: 100%;
+  padding: 5%;
+  margin: 5%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.toggleName {
+  font-size: 1.5rem;
+}
+
+.toggle {
+  position: relative;
+  display: inline-block;
+}
+
+input {
+  height: 40px;
+  left: 0;
+  opacity: 0;
+  position: absolute;
+  top: 0;
+  width: 40px;
+}
+
+label.toggleItem {
+  width: 7em;
+  background: #2e394d;
+  height: 3em;
+  display: inline-block;
+  border-radius: 50px;
+  position: relative;
+  transition: all 0.3s ease;
+  transform-origin: 20% center;
+  cursor: pointer;
+}
+label.toggleItem:before {
+  display: block;
+  transition: all 0.2s ease;
+  width: 2.3em;
+  height: 2.3em;
+  top: 0.25em;
+  left: 0.25em;
+  border-radius: 2em;
+  border: 2px solid #88cf8f;
+  transition: 0.3s ease;
+}
+
+.toggle label {
+  background: gray;
+  border: 0.5px solid rgba(117, 117, 117, 0.31);
+  box-shadow: inset 0px 0px 1px 0px rgba(0, 0, 0, 0.2),
+    0 -1px 1px rgba(0, 0, 0, 0.15);
+}
+.toggle label:before {
+  border: none;
+  width: 2.5em;
+  height: 2.5em;
+  box-shadow: inset 0.5px -1px 1px rgba(0, 0, 0, 0.35);
+  background: #fff;
+  transform: rotate(-25deg);
+}
+.toggle label:after {
+  background: transparent;
+  height: calc(100% + 4px);
+  border-radius: 30px;
+  top: -3px;
+  width: calc(100% + 4px);
+  left: -3px;
+  z-index: 0;
+  box-shadow: inset 0px 1px 1px -1px rgba(0, 0, 0, 0.2),
+    0px 1px 2px 0px rgba(151, 151, 151, 0.2);
+}
+
+Input[id="auto-bright-toggle"]:checked + label {
+  background: #4caf50;
+}
+Input[id="auto-bright-toggle"]:checked + label:before {
+  left: 34px;
+}
