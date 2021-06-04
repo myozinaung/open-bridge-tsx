@@ -65,7 +65,7 @@ input[type="radio"] {
   width: 24px;
   height: 24px;
   color: black;
-  opacity: 40%;
+  opacity: 0.4;
 }
 
 input[type="radio"]:checked + label {
