@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/open-bridge-tsx/static/css/main.a9ee5688.chunk.css",
+    "main.css": "/open-bridge-tsx/static/css/main.066510d5.chunk.css",
     "main.js": "/open-bridge-tsx/static/js/main.4d2c2ce4.chunk.js",
     "main.js.map": "/open-bridge-tsx/static/js/main.4d2c2ce4.chunk.js.map",
     "runtime-main.js": "/open-bridge-tsx/static/js/runtime-main.c36a4c63.js",
@@ -10,7 +10,7 @@
     "static/js/2.4b850101.chunk.js.map": "/open-bridge-tsx/static/js/2.4b850101.chunk.js.map",
     "index.html": "/open-bridge-tsx/index.html",
     "static/css/2.27513e2b.chunk.css.map": "/open-bridge-tsx/static/css/2.27513e2b.chunk.css.map",
-    "static/css/main.a9ee5688.chunk.css.map": "/open-bridge-tsx/static/css/main.a9ee5688.chunk.css.map",
+    "static/css/main.066510d5.chunk.css.map": "/open-bridge-tsx/static/css/main.066510d5.chunk.css.map",
     "static/js/2.4b850101.chunk.js.LICENSE.txt": "/open-bridge-tsx/static/js/2.4b850101.chunk.js.LICENSE.txt",
     "static/media/alert-icon.e6393804.svg": "/open-bridge-tsx/static/media/alert-icon.e6393804.svg",
     "static/media/apps-icon.0c4abf5b.svg": "/open-bridge-tsx/static/media/apps-icon.0c4abf5b.svg",
@@ -26,7 +26,7 @@
     "static/js/runtime-main.c36a4c63.js",
     "static/css/2.27513e2b.chunk.css",
     "static/js/2.4b850101.chunk.js",
-    "static/css/main.a9ee5688.chunk.css",
+    "static/css/main.066510d5.chunk.css",
     "static/js/main.4d2c2ce4.chunk.js"
   ]
 }
