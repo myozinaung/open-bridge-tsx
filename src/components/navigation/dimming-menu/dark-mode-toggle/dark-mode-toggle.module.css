@@ -1,0 +1,100 @@
+.themeLight {
+  --bg-fill: gray;
+  --card-fill: white;
+  --font-color: black;
+}
+.themeDark {
+  --bg-fill: gray;
+  --card-fill: black;
+  --font-color: white;
+}
+
+.toggleContainer {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white;
+  box-shadow: 0 0 1px 0 rgba(24, 94, 224, 0.15),
+    0 6px 12px 0 rgba(24, 94, 224, 0.15);
+  padding: 0.5rem;
+  border-radius: 8px;
+  margin-top: 2%;
+  margin-bottom: 2%;
+  padding: 5px;
+}
+
+.toggleName {
+  font-size: 1.5em;
+  color: var(--font-color);
+  margin: 10px;
+}
+
+/* toggle css */
+.toggle {
+  position: relative;
+  display: inline-block;
+  width: 50px;
+  height: 25px;
+  margin-right: 5px;
+}
+
+/* Hide default HTML checkbox */
+.toggle input {
+  opacity: 0;
+  width: 0;
+  height: 0;
+}
+
+/* The slider */
+.slider {
+  position: absolute;
+  cursor: pointer;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #ccc;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+
+  border-radius: 50px; /* background pill radius */
+}
+
+.slider:before {
+  position: absolute;
+  content: "";
+  height: 110%;
+  width: 60%;
+  left: 0px;
+  bottom: 4px;
+  top: 0;
+  bottom: 0;
+  margin: auto 0;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  box-shadow: 5px 5px 15px #2020203d;
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+
+  border-radius: 50%;
+}
+
+input:checked + .slider {
+  background-color: #28f321;
+}
+
+input:focus + .slider {
+  box-shadow: 0 0 3px #28f321;
+}
+
+input:checked + .slider:before {
+  -webkit-transform: translateX(75%);
+  -ms-transform: translateX(75%);
+  transform: translateX(75%);
+  background: white;
+  background-repeat: no-repeat;
+  background-position: center;
+}

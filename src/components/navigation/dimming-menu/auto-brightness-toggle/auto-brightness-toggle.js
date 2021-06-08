@@ -1,4 +1,3 @@
-import { isTemplateLiteralTypeSpan } from "typescript";
 import styles from "./auto-brightness-toggle.module.css";
 
 function AutoBrightnessToggle(props) {
