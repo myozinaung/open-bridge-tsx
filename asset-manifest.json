@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/open-bridge-tsx/static/css/main.4a3d6130.chunk.css",
-    "main.js": "/open-bridge-tsx/static/js/main.696ed5b0.chunk.js",
-    "main.js.map": "/open-bridge-tsx/static/js/main.696ed5b0.chunk.js.map",
+    "main.css": "/open-bridge-tsx/static/css/main.891cf813.chunk.css",
+    "main.js": "/open-bridge-tsx/static/js/main.f3d5c1dc.chunk.js",
+    "main.js.map": "/open-bridge-tsx/static/js/main.f3d5c1dc.chunk.js.map",
     "runtime-main.js": "/open-bridge-tsx/static/js/runtime-main.c36a4c63.js",
     "runtime-main.js.map": "/open-bridge-tsx/static/js/runtime-main.c36a4c63.js.map",
     "static/css/2.27513e2b.chunk.css": "/open-bridge-tsx/static/css/2.27513e2b.chunk.css",
-    "static/js/2.71e48788.chunk.js": "/open-bridge-tsx/static/js/2.71e48788.chunk.js",
-    "static/js/2.71e48788.chunk.js.map": "/open-bridge-tsx/static/js/2.71e48788.chunk.js.map",
+    "static/js/2.16852abf.chunk.js": "/open-bridge-tsx/static/js/2.16852abf.chunk.js",
+    "static/js/2.16852abf.chunk.js.map": "/open-bridge-tsx/static/js/2.16852abf.chunk.js.map",
     "index.html": "/open-bridge-tsx/index.html",
     "static/css/2.27513e2b.chunk.css.map": "/open-bridge-tsx/static/css/2.27513e2b.chunk.css.map",
-    "static/css/main.4a3d6130.chunk.css.map": "/open-bridge-tsx/static/css/main.4a3d6130.chunk.css.map",
-    "static/js/2.71e48788.chunk.js.LICENSE.txt": "/open-bridge-tsx/static/js/2.71e48788.chunk.js.LICENSE.txt",
+    "static/css/main.891cf813.chunk.css.map": "/open-bridge-tsx/static/css/main.891cf813.chunk.css.map",
+    "static/js/2.16852abf.chunk.js.LICENSE.txt": "/open-bridge-tsx/static/js/2.16852abf.chunk.js.LICENSE.txt",
     "static/media/alert-icon.e6393804.svg": "/open-bridge-tsx/static/media/alert-icon.e6393804.svg",
     "static/media/apps-icon.0c4abf5b.svg": "/open-bridge-tsx/static/media/apps-icon.0c4abf5b.svg",
     "static/media/bright-icon.a6e5ace8.svg": "/open-bridge-tsx/static/media/bright-icon.a6e5ace8.svg",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.c36a4c63.js",
     "static/css/2.27513e2b.chunk.css",
-    "static/js/2.71e48788.chunk.js",
-    "static/css/main.4a3d6130.chunk.css",
-    "static/js/main.696ed5b0.chunk.js"
+    "static/js/2.16852abf.chunk.js",
+    "static/css/main.891cf813.chunk.css",
+    "static/js/main.f3d5c1dc.chunk.js"
   ]
 }
